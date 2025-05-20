@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Students</title>
+</head>
+<body>
+   {% block content %}
+    <h1>List of Students</h1>
+    <table class="table table-striped">
+    {% for st in students %}
+    <tr>
+        <td>{{ st.name }}</td> 
+        <td>{{ st.cell_no }}</td> 
+        <td>{{ st.dob }}</td> 
+        <td>{{ st.email }}</td> 
+        </tr>
+    {% endfor %}
+
+    </table>
+    {% endblock %}
+</body>
+</html>
