@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-_*4e^(!zq1btg=b_mdcw+=qk&!wat9$!lyhd39@((r4$2ljsir
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://django-beg-course.onrender.com',
+    'django-beg-course.onrender.com',
     'localhost',
     '127.0.0.1',
     ]
